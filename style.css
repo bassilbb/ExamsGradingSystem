@@ -1,0 +1,108 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body{
+    background: url("images/school.jpg");
+    background-size: cover;
+}
+#main{
+    width: 46%;
+    height: 532px;
+    background-color: white;
+    text-align: center;
+    float: left;
+    margin: 45px 10px 0 160px;
+}
+#head{
+
+    background-color:tomato;
+    width: 100%;
+    height: 55px;
+    color: white;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+#main input{
+    height: 30px;
+    width: 41%;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+#main label{
+    font-size: 23px;
+    padding-right: 50px;
+    margin-bottom: 10px;
+}
+.btn1{
+    outline: none;
+    border: none;
+    width: 13%;
+    height: 40px;
+    margin-right: 19px;
+    padding-top: 2px;
+    font-size: 26px;
+    background-color: chocolate;
+}
+.btn2{
+    outline: none;
+    border: none;
+    width: 14%;
+    height: 40px;
+    margin-right: 19px;
+    padding-top: 2px;
+    font-size: 26px;
+    background-color: yellowgreen;
+}
+.btn3{
+    outline: none;
+    border: none;
+    width: 14%;
+    height: 40px;
+    margin-right: 19px;
+    padding-top: 2px;
+    font-size: 26px;
+    background-color: teal;
+}
+#result{
+    height: 532px;
+    width: 30%;
+    float: left;
+    margin-top: 45px;
+    background-color: white;
+}
+#head1, #head2, #head3{
+    background-color: tomato;
+    width: 100%;
+    height: 48px;
+    color: white;
+    text-align: center;
+}
+#total{
+    height: 200px;
+    width: 100%;
+    padding: 15px;
+    background-color: white;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 27px;
+    
+}
+#average{
+    height: 80px;
+    width: 100%;
+    padding: 25px;
+    background-color: white;
+    font-size: 19px;
+    font-weight: 600;
+}
+#grades{
+    height: 80px;
+    width: 100%;
+    padding: 19px;
+    background-color: white;
+    font-size: 19px;
+    font-weight: 600;
+}
